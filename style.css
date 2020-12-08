@@ -1,0 +1,105 @@
+h1.welcome{
+	font-family: 'Chakra Petch', serif;
+}
+
+nav a:link{
+	font-family:'Alata', serif;
+	font-size: 14px;
+	line-height: 19px;
+	color: #898989;
+	text-decoration :none;
+
+	float: left;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+
+nav a:visited{
+	text-decoration: none;
+	color: #898989;
+}
+
+nav a:visited.current{
+	text-deocration: none;
+	color: #000000;
+}
+
+nav.current{
+	color: #000000;
+}
+
+.welcome {
+	display: grid;
+	float: left;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	width: 50%;
+	height: 500px;
+	padding-left: 0px;
+
+	font-family: 'Chakra Petch', serif;
+	color: #FB8484;
+}
+
+.wel {
+	grid-row-start: 1;
+	grid-column-start:1;
+	text-align: right;
+
+	font-size: 64px;
+}
+
+.to {
+	grid-row-start: 2;
+	grid-column-start:1;
+	text-align: right;
+
+	font-size: 36px;
+}
+
+.my {
+	grid-row-start: 3;
+	grid-column-start:2;
+
+	font-size: 48px;
+}
+
+.of {
+	grid-row-start: 4;
+	grid-column-start:1;
+	text-align: right;
+
+	font-size: 36px;
+}
+
+.rec {
+	grid-row-start: 5;
+	grid-column-start:2;
+
+	font-size: 72px;
+}
+
+.about{
+	font-family: 'Chakra Petch';
+}
+
+.about h5{
+	font-family: 'Alata';
+}
+
+.rectangle{
+	width: 344px;
+	height: 355px;
+
+	background: #FFE2E2;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
