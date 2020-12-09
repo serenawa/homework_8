@@ -173,12 +173,11 @@ nav.current{
 	height: 400px;
 	background: #FFF3F3;
 
-	top: 400px;
+	top: 500px;
 
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	width: 100%;
 
 	padding-left: 25px;
 
@@ -221,22 +220,44 @@ nav.current{
 	font-size: 24px;
 
 	left: 25px;
-	top: 819px;
+	top: 919px;
 }
 
-.over {
+
+.overview{
 	position: absolute;
+	width: 100%;
+	height: 800px;
+	background: #FFF3F3;
+
+	top: 1385px;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(7, 1fr);
+
+	padding-left: 50px;
+	padding-right: 50px;
+
+	font-family: 'Chakra Petch', serif;	
+}
+
+.overTitle {
 	font-family: Alata;
 	font-size: 24px;
 
-	left: 25px;
-	top: 1391px;
+	grid-row-start: 1;
+	grid-column-start: 1;
 
 }
 
-
-
-
+.tartImg {
+	position: absolute;
+	width: 318px;
+	height: 318px;
+	left: 830px;
+	top: 87px;
+}
 
 
 
