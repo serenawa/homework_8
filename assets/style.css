@@ -1,5 +1,3 @@
-/*CSS styling for pages on HW8*/
-
 h1.welcome{
 	font-family: 'Chakra Petch', serif;
 }
@@ -14,7 +12,6 @@ h1.fruit{
 	font-size: 72px;
 }
 
-/*nav bar formatting*/
 nav a:link{
 	font-family:'Alata', serif;
 	font-size: 14px;
@@ -109,7 +106,6 @@ nav.current{
 	border-radius: 15px;
 }
 
-/*title of fruit tart page*/
 #anatomy {
 	position: absolute;
 	width: 159px;
@@ -170,7 +166,7 @@ nav.current{
 	line-height: 99px;
 }
 
-/*the ingredients and tips grid*/
+
 .pinkRec{
 	position: absolute;
 	height: 400px;
@@ -230,7 +226,7 @@ nav.current{
 	top: 919px;
 }
 
-/*formatting the overview grid*/
+
 .overview{
 	position: absolute;
 	height: 1500px;
@@ -274,7 +270,6 @@ nav.current{
 	top: 87px;
 }
 
-/*formatting the titles of the overview section*/
 .stageOne {
 	font-family: 'Alata';
 	font-size: 13px;
@@ -300,7 +295,6 @@ nav.current{
 	align-self: center;
 }
 
-/*formatting for all icons in the overview section grid*/
 .one {
 	width: 91.6px;
 	height: 91.6px;
@@ -392,7 +386,6 @@ nav.current{
 	grid-area: 12/4;
 }
 
-/*formatting for the text that goes below each image in overview section*/
 .oneT{
 	grid-area: 3/3;
 }
