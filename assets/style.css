@@ -1,3 +1,5 @@
+/*CSS styling for pages on HW8*/
+
 h1.welcome{
 	font-family: 'Chakra Petch', serif;
 }
@@ -12,6 +14,7 @@ h1.fruit{
 	font-size: 72px;
 }
 
+/*nav bar formatting*/
 nav a:link{
 	font-family:'Alata', serif;
 	font-size: 14px;
@@ -106,6 +109,7 @@ nav.current{
 	border-radius: 15px;
 }
 
+/*title of fruit tart page*/
 #anatomy {
 	position: absolute;
 	width: 159px;
@@ -153,7 +157,7 @@ nav.current{
 }
 
 #fruit {
-	position: absolute;
+	position: relative;
 	width: 403px;
 	height: 83px;
 	left: 184px;
@@ -166,10 +170,10 @@ nav.current{
 	line-height: 99px;
 }
 
-
+/*the ingredients and tips grid*/
 .pinkRec{
 	position: absolute;
-	height: 400px;
+	height: 410px;
 	background: #FFF3F3;
 
 	top: 500px;
@@ -180,6 +184,7 @@ nav.current{
 
 	padding-left: 25px;
 	padding-right: 25px;
+	grid-column-gap: 15px;
 }
 
 
@@ -205,6 +210,7 @@ nav.current{
 
 	font-family: 'Chakra Petch';
 	font-size: 13px;
+	padding-left: 35%;
 }
 
 
@@ -214,6 +220,7 @@ nav.current{
 
 	font-family: 'Chakra Petch';
 	font-size: 13px;
+	padding-right: 50px;
 }
 
 
@@ -227,9 +234,10 @@ nav.current{
 }
 
 
+/*formatting the overview grid*/
 .overview{
 	position: absolute;
-	height: 1500px;
+	height: 2000px;
 	background: #FFF3F3;
 	top: 1385px;
 
@@ -270,6 +278,7 @@ nav.current{
 	top: 87px;
 }
 
+/*formatting the titles of the overview section*/
 .stageOne {
 	font-family: 'Alata';
 	font-size: 13px;
@@ -295,6 +304,7 @@ nav.current{
 	align-self: center;
 }
 
+/*formatting for all icons in the overview section grid*/
 .one {
 	width: 91.6px;
 	height: 91.6px;
@@ -381,11 +391,32 @@ nav.current{
 }
 
 .fifteen{
-	width: 103.05px;
-	height: 103.05px;
+	width: 92.95px;
+	height: 92.95px;
+	grid-area: 12/3;
+}
+
+.sixteen{
+	width: 150px;
+	height: 150px;
 	grid-area: 12/4;
 }
 
+.seventeen{
+	grid-area: 12/5;
+	width: 87.56px;
+	height: 87.56px;
+}
+
+.eighteen{
+	width: 103.05px;
+	height: 103.05px;
+	grid-area: 14/4;
+}
+
+
+
+/*formatting for the text that goes below each image in overview section*/
 .oneT{
 	grid-area: 3/3;
 }
@@ -443,17 +474,141 @@ nav.current{
 }
 
 .fifteenT{
+	grid-area: 13/3;
+}
+
+.sixteenT{
 	grid-area: 13/4;
 }
 
+.seventeenT{
+	grid-area: 13/5;
+}
 
+.eighteenT{
+	grid-area: 15/4;
+}
 
+/*the pink line and circle in step by step */
 
+.line {
+	top: 1150px;
+	height: 14px;
+	background-color: #FFF3F3;
+	position: relative;
+}
 
+.mid {
+	margin: 0 auto;
+	top: 970px;
+	height: 380px;
+}
 
+.mid .circle {
+	position: absolute;
+	vertical-align: middle;
+	width: 390px;
+	height: 390px;
+	
+	top: 970px;
+	margin-left: 42%;
 
+	border-radius: 50%;
+	background-color: #FFD9D9;
+}
+/*styling for the step by step instructions*/
+/*container*/
+.slideshow-container {
+	position: absolute;
+	height: 380px;
 
+	top: 970px;
+	padding-left: 50%;
 
+	align-items: center;
+}
+
+.slideshow-container img {
+	position: relative;
+	vertical-align: middle;
+
+	top: 70px;
+
+	height: 150px;
+	width: 150px;
+
+	display: block;
+	align-self: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.mySlides {
+	display: none;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	width: auto;
+	padding: 16px;
+
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+
+	transition: 0.6 ease;
+	user-select: none;
+	border-radius: 0 5px 5px 0;
+}
+
+.next {
+	right: 0px;
+	border-radius: 5px 0 0 5px;
+}
+
+.prev:hover, .next:hover {
+	background-color: #FFF3F3;
+}
+
+/* instruction text */
+.text {
+	position: absolute;
+	top: 250px;
+
+	font-size: 15px;
+	font-family: "Chakra Petch";
+	text-align: left;
+	width: 200px;
+}
+
+.numbertext {
+	position: absolute;
+	top: 225px;
+	font-size: 11px;
+	text-align: center;
+	font-family: "Alata";
+	color: #898989;
+}
+
+/* fading */
+.fade {
+	-webkit-animation-name: fade;
+  	-webkit-animation-duration: 1.5s;
+  	animation-name: fade;
+  	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
 
 
