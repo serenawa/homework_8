@@ -1,8 +1,4 @@
-/*CSS styling for pages on HW8*/
-
-h1.welcome{
-	font-family: 'Chakra Petch', serif;
-}
+/* CSS for the tart page */
 
 h1.ana{
 	font-family: Alata;
@@ -40,73 +36,6 @@ nav a:visited.current{
 
 nav.current{
 	color: #000000;
-}
-
-.welcome {
-	display: grid;
-	float: left;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(5, 1fr);
-	width: 50%;
-	height: 500px;
-	padding-left: 0px;
-
-	font-family: 'Chakra Petch', serif;
-	color: #FB8484;
-}
-
-.wel {
-	grid-row-start: 1;
-	grid-column-start:1;
-	text-align: right;
-
-	font-size: 64px;
-}
-
-.to {
-	grid-row-start: 2;
-	grid-column-start:1;
-	text-align: right;
-
-	font-size: 36px;
-}
-
-.my {
-	grid-row-start: 3;
-	grid-column-start:2;
-
-	font-size: 48px;
-}
-
-.of {
-	grid-row-start: 4;
-	grid-column-start:1;
-	text-align: right;
-
-	font-size: 36px;
-}
-
-.rec {
-	grid-row-start: 5;
-	grid-column-start:2;
-
-	font-size: 72px;
-}
-
-.about{
-	font-family: 'Chakra Petch';
-}
-
-.about h5{
-	font-family: 'Alata';
-}
-
-.rectangle{
-	width: 344px;
-	height: 355px;
-
-	background: #FFE2E2;
-	border-radius: 15px;
 }
 
 /*title of fruit tart page*/
@@ -174,7 +103,7 @@ nav.current{
 .pinkRec{
 	position: absolute;
 	height: 410px;
-	background: #FFF3F3;
+	background: #CCF3D0;
 
 	top: 500px;
 
@@ -237,14 +166,14 @@ nav.current{
 /*formatting the overview grid*/
 .overview{
 	position: absolute;
-	height: 2000px;
-	background: #FFF3F3;
+	height: 1500px;
+	background: #CCF3D0;
 	top: 1385px;
 
 	display: grid;
 	grid-column-gap: 20px;
 	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(15, 1fr);
+	grid-template-rows: repeat(13, 1fr);
 
 
 	padding-left: 25px;
@@ -272,8 +201,8 @@ nav.current{
 
 .tartImg {
 	position: absolute;
-	width: 318px;
-	height: 318px;
+	width: 259.13px;
+	height: 363px;
 	left: 830px;
 	top: 87px;
 }
@@ -297,7 +226,7 @@ nav.current{
 .stageTwo {
 	font-family: 'Alata';
 	font-size: 13px;
-	grid-row-start: 4;
+	grid-row-start: 3;
 	grid-column-start:2;
 	align-self: center;
 }
@@ -305,46 +234,46 @@ nav.current{
 .stageThree {
 	font-family: 'Alata';
 	font-size: 13px;
-	grid-row-start: 8;
+	grid-row-start: 7;
 	grid-column-start:2;
 	align-self: center;
 }
 
 /*formatting for all icons in the overview section grid*/
 .one {
-	width: 91.6px;
-	height: 91.6px;
+	width: 79px;
+	height: 78px;
 	grid-row-start: 2;
 	grid-column-start: 3;
 }
 
 .two{
-	width: 101.03px;
-	height: 101.03px;
+	width: 109.79px;
+	height: 109.79px;
 	grid-area: 2/4;
 }
 
 .three{
-	width: 101.03px;
-	height: 101.03px;
+	width: 101px;
+	height: 101px;
 	grid-area: 2/5;
 }
 
 .four{
-	width: 109.79px;
-	height: 109.79px;
+	width: 77px;
+	height: 77px;
 	grid-area: 4/3;
 }
 
 .five{
-	width: 90px;
-	height: 90px;
+	width: 72px;
+	height: 72px;
 	grid-area: 4/4;
 }
 
 .six{
-	width: 120px;
-	height: 120px;
+	width: 81px;
+	height: 81px;
 	grid-area: 4/5;
 }
 
@@ -367,8 +296,8 @@ nav.current{
 }
 
 .ten{
-	width: 78.13px;
-	height: 78.13px;
+	width: 55px;
+	height: 55px;
 	grid-area: 8/4;
 }
 
@@ -379,47 +308,16 @@ nav.current{
 }
 
 .twelve{
-	width: 80.15px;
-	height: 80.15px;
+	width: 88px;
+	height: 88px;
 	grid-area: 10/3;
 }
 
 .thirteen{
-	width: 91.6px;
-	height: 91.6px;
-	grid-area: 10/4;
-}
-
-.fourteen{
-	width: 107.77px;
-	height: 107.77px;
-	grid-area: 10/5;
-}
-
-.fifteen{
-	width: 92.95px;
-	height: 92.95px;
-	grid-area: 12/3;
-}
-
-.sixteen{
-	width: 150px;
-	height: 150px;
-	grid-area: 12/4;
-}
-
-.seventeen{
-	grid-area: 12/5;
-	width: 87.56px;
-	height: 87.56px;
-}
-
-.eighteen{
 	width: 103.05px;
 	height: 103.05px;
-	grid-area: 14/4;
+	grid-area: 12/4;
 }
-
 
 
 /*formatting for the text that goes below each image in overview section*/
@@ -472,35 +370,16 @@ nav.current{
 }
 
 .thirteenT{
-	grid-area: 11/4;
-}
-
-.fourteenT{
-	grid-area: 11/5;
-}
-
-.fifteenT{
-	grid-area: 13/3;
-}
-
-.sixteenT{
 	grid-area: 13/4;
 }
 
-.seventeenT{
-	grid-area: 13/5;
-}
-
-.eighteenT{
-	grid-area: 15/4;
-}
 
 /*the pink line and circle in step by step */
 
 .line {
 	top: 1150px;
 	height: 14px;
-	background-color: #FFF3F3;
+	background-color: #CCF3D0;
 	position: relative;
 }
 
@@ -520,7 +399,7 @@ nav.current{
 	margin-left: 42%;
 
 	border-radius: 50%;
-	background-color: #FFD9D9;
+	background-color: #60BB69;
 }
 /*styling for the step by step instructions*/
 /*container*/
@@ -575,7 +454,7 @@ nav.current{
 }
 
 .prev:hover, .next:hover {
-	background-color: #FFF3F3;
+	background-color: #CCF3D0;
 }
 
 /* instruction text */
@@ -615,6 +494,3 @@ nav.current{
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
-
